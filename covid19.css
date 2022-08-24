@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+img{
+	max-width: 100%;
+}
+
+.logo{
+	max-width: 105px;
+	height: auto;
+}
+.page_title{
+	font-size: 28px;
+	text-align: center;
+	color: #FFF;
+}
+.page_title a:hover{text-decoration: none;}
+@media (min-width: 768px) {
+	.page_title {
+		font-size: 50px;
+	}
+}
+
+.page_title a img{
+	display: block;
+	margin: 0 auto;
+}
+@media (min-width: 768px) {
+	.page_title a img{
+		display: inline;
+	}
+}
+#makeimprovement.d-block{
+	display: none !important;
+}
+@media (min-width: 768px) {
+	#makeimprovement.d-block{
+		display: block !important;
+	}
+}
+
+#summery .list-group-item {
+	background-color: transparent;
+	border: none;
+}
+#summery .list-group-item{
+	color: #FFF;
+}
+#summery .list-group-item #total_cases.badge-warning{
+	color: #FFF;
+}
+#summery p{
+	font-size: 40px;
+}
+#summery span{font-size: 45px;}
+#header {
+	background-color: transparent;
+}
+.nav-tabs#myTab{
+	border-bottom: 1px solid #454545;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #FFF !important;
+    background-color: #343A40 !important;
+    border-color: #28A745 #DC3545 #343A40 !important;
+}
+
+/* Contribution */
+#contribution.jumbotron.jumbotron-fluid{
+	background-color: transparent;
+}
+#contribution.jumbotron.jumbotron-fluid .container{
+	max-width: 700px;
+}
+#contribution.jumbotron.jumbotron-fluid .container h1{
+	color: #D78611;
+}
+#contribution.jumbotron.jumbotron-fluid .container p{
+	color: #FFFFFF;
+}
+
+/**
+*	Table
+*/
+table.table.table-striped.table-dark{
+	font-size: 18px;
+}
+@media (min-width: 768px) {
+	table.table.table-striped.table-dark{
+		font-size: 22px;
+	}
+}
+
